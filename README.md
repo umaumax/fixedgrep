@@ -7,6 +7,11 @@ go get -u github.com/umaumax/fixedgrep
 
 ## how to use
 ```
+cat README.md | fixedgrep -prefix='#' how to
+```
+
+### help
+```
 Usage of fixedgrep:
   -max int
     	max hit number (default -1)
